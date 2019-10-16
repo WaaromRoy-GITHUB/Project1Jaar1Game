@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Gebruiker\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gebruiker\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Project1Jaar1Game.-1276568989.00" t="ExcludeRecursive" />
+    <e p="D:\Unity\School\Project1Jaar1Game" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="TextAdventure.cs" t="Include" />
+        </e>
+        <e p="WM2000" t="Include">
+          <e p="Display" t="Include">
+            <e p="Display.cs" t="Include" />
+          </e>
+          <e p="Keyboard" t="Include">
+            <e p="Keyboard.cs" t="Include" />
+          </e>
+          <e p="Terminal" t="Include">
+            <e p="DisplayBuffer.cs" t="Include" />
+            <e p="InputBuffer.cs" t="Include" />
+            <e p="Terminal.cs" t="Include" />
+          </e>
+          <e p="Utility.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Project1Jaar1Game.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

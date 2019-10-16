@@ -1023,9 +1023,10 @@ public class TextAdventure : MonoBehaviour
     void n6b2()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Na het eten ga je met Natsuki op de gang");
-        Terminal.WriteLine("praten in de gang. Daarna worden jullie");
-        Terminal.WriteLine("naar je kamer gestuurd.");
+        Terminal.WriteLine("Na het eten ga je met Natsuki op de");
+        Terminal.WriteLine("gang praten.");
+        Terminal.WriteLine("Daarna worden jullie naar je kamer");
+        Terminal.WriteLine("gestuurd.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
