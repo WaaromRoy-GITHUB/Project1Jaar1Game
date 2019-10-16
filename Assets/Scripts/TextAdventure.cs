@@ -1240,7 +1240,6 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
         currentState = States.n6b7b8b3;
-        // To win();
     }
 
     // Update is called once per frame
