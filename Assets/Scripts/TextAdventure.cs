@@ -500,7 +500,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Welkom Bij Doki Doki IT Camp.");
         Terminal.WriteLine("Type START om te beginnen.");
-        currentState = States.Start
+        currentState = States.Start;
     }
 
     void K1()
@@ -543,7 +543,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Monica: Ik heb van Attack on titan gehoord. Het is een leuk verhaal.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.K2AA;
     }
 
@@ -575,7 +575,7 @@ public class TextAdventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("Gefeliciteerd je heb het kamp overleeft!");
-        Terminal.WriteLine("overleeft!")
+        Terminal.WriteLine("overleeft!");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan naar de credits.");            
@@ -671,7 +671,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("door een weerwolf.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om terug te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.reset;
     }
 
@@ -827,7 +827,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Daarna gaan julie terug naar het huis.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.m4b2c6b1a2;
     }
 
@@ -837,7 +837,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je gaat chinees eten.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.m4b2c6b1a3;
     }
 
@@ -848,7 +848,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Om te mario karten.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.m4b2c6b1a4;
     }
 
@@ -869,7 +869,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Maar Monika merkt dat je het expres doet en loopt boos de kamer uit.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.m4b2c6b1a5a1;
     }
 
@@ -889,7 +889,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je vraagt om nog een ronde maar kan nooit winnen.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.m4b2c6b1a5b1;
     }
 
@@ -899,7 +899,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Jullie vallen na uren mario karten in slaap.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.m4b2c6b1a5b2;
     }
 
@@ -909,7 +909,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("je wordt wakker met Monika naast je.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.m4b2c6b1a5b3;
     }
 
@@ -920,7 +920,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Vervolgens gaan jullie de spullen verzamenlen en naar huis.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.m4b2c6b1a5b4;
     }
 
@@ -932,7 +932,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("En is het er mee eens.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n1;
     }
 
@@ -942,7 +942,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je discussieerd over de manga");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n2;
     }
 
@@ -953,7 +953,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Naar het huis toe.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n3;
     }
 
@@ -963,7 +963,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je komt aan bij het huis.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n4;
     }
 
@@ -973,7 +973,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je maakt je bed op.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n5;
     }
 
@@ -993,7 +993,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je eet de worst in een keer op.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6a1;
     }
 
@@ -1003,7 +1003,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je stikt in je worst.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Je bent dood gegaan druk op ");
-        Terminal.WriteLine("de SPATIEBALK om terug tegaan.")
+        Terminal.WriteLine("de SPATIEBALK om terug tegaan.");
         currentState = States.reset;
     }
 
@@ -1016,7 +1016,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je deelt een stuk met Natsuki.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b1;
     }
 
@@ -1028,7 +1028,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("naar je kamer gestuurd.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b2;
     }
 
@@ -1038,7 +1038,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je valt in slaap met Natsuki naast je.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b3;
     }
 
@@ -1049,7 +1049,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Maar gaan weer slapen.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b4;
     }
 
@@ -1060,7 +1060,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("te onbijten. Of lunch te maken.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b5;
     }
 
@@ -1070,7 +1070,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je fietst samen Natsuki naar de rafts toe.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b6;
     }
 
@@ -1091,7 +1091,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je gaat met Natsuki Monika en Yuri raften.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7a1;
     }
 
@@ -1103,7 +1103,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Helaas kan je niet zwemmen en verdrink je.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.reset;
     }
 
@@ -1113,7 +1113,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je gaat kanoën");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b1;
     }
 
@@ -1123,7 +1123,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je komt veel eerder aan dan de rest van de groep.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b2;
     }
 
@@ -1134,7 +1134,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Jij betaald het eten en bend nu blut.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b3;
     }
 
@@ -1144,7 +1144,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Jullie gaan terug naar het huis.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b4;
     }
 
@@ -1154,7 +1154,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Jullie gaan chinees eten.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b5;
     }
 
@@ -1164,7 +1164,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Jullie gaan kaarten.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b6;
     }
 
@@ -1174,7 +1174,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je gaat samen met Natsuki manga lezen.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b7;
     }
 
@@ -1204,10 +1204,10 @@ public class TextAdventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("Jullie lezen de manga en vallen in");
-        Terminal.WriteLine("slaap.")
+        Terminal.WriteLine("slaap.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b8b1;
     }
 
@@ -1217,7 +1217,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je wordt wakker met Natsuki naast je.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b8b2;
     }
 
@@ -1226,11 +1226,11 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Jullie gaan samen ontbijten.");
         Terminal.WriteLine("Vervolgens gaan jullie je spullen");
-        Terminal.WriteLine("pakken.")
+        Terminal.WriteLine("pakken.");
         Terminal.WriteLine("En naar huis");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.Writeline("gaan.")
+        Terminal.Writeline("gaan.");
         currentState = States.n6b7b8b3;
         // To win();
     }
