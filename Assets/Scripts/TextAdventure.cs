@@ -539,8 +539,10 @@ public class TextAdventure : MonoBehaviour
     void K2AA()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Natsuki vind je mening slecht maar accepteert het");
-        Terminal.WriteLine("Monica: Ik heb van Attack on titan gehoord. Het is een leuk verhaal.");
+        Terminal.WriteLine("Natsuki vind je mening slecht maar");
+        Terminal.WriteLine("accepteert het.");
+        Terminal.WriteLine("Monica: Ik heb van Attack on titan");
+        Terminal.WriteLine("gehoord. Het is een leuk verhaal.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
@@ -562,7 +564,8 @@ public class TextAdventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("Monica komt naast je zitten.");
-        Terminal.WriteLine("Monica: Negeer haar maar ze is gewoon geirriteerd als iemand geen manga leest."); //fix geirriteerd... leest.
+        Terminal.WriteLine("Monica: Negeer haar maar ze is gewoon");
+        Terminal.WriteLine("geirriteerd als iemand geen manga leest.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");            
@@ -761,7 +764,8 @@ public class TextAdventure : MonoBehaviour
     void m4b2c4()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Je gaat onbijten en maakt je lunch voor later vandaag");
+        Terminal.WriteLine("Je gaat onbijten en maakt je lunch");
+        Terminal.WriteLine("voor later vandaag.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
@@ -1069,8 +1073,8 @@ public class TextAdventure : MonoBehaviour
     void n6b6()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Je fietst samen Natsuki naar de rafts");
-        Terminal.WriteLine("toe.");
+        Terminal.WriteLine("Je fietst samen Natsuki naar de ");
+        Terminal.WriteLine("rafts toe.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
