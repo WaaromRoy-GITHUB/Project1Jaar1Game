@@ -208,13 +208,13 @@ public class TextAdventure : MonoBehaviour
 
                 break;
             case States.n6b7b8:
-                if (input.ToLower() == "")
+                if (input.ToLower() == "attack on titan")
                 {
-
+                    n6b7b8a1();
                 }
-                else if (input.ToLower() == "")
+                else if (input.ToLower() == "helsing")
                 {
-
+                    n6b7b8b1();
                 }
 
                 break;
@@ -285,97 +285,97 @@ public class TextAdventure : MonoBehaviour
             m4();
         }
 
-        if (currentState == States.m4a1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4a1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4a2();
         }
 
-        if (currentState == States.m4b1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2();
         }
 
-        if (currentState == States.m4b2a1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2a1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c2();
         }
 
-        if (currentState == States.m4b2b1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2b1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c2();
         }
 
-        if (currentState == States.m4b2c1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c2();
         }
 
-        if (currentState == States.m4b2c2 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c2 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c3();
         }
 
-        if (currentState == States.m4b2c3 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c3 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c4();
         }
 
-        if (currentState == States.m4b2c4 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c4 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c5();
         }
 
-        if (currentState == States.m4b2c5 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c5 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6();
         }
 
-        if (currentState == States.m4b2c6a1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6a1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a1();
         }
 
-        if (currentState == States.m4b2c6b1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a1();
         }
 
-        if (currentState == States.m4b2c6b1a1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1a1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a2();
         }
 
-        if (currentState == States.m4b2c6b1a2 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1a2 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a3();
         }
 
-        if (currentState == States.m4b2c6b1a3 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1a3 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a4();
         }
 
-        if (currentState == States.m4b2c6b1a4 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1a4 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a5();
         }
 
-        if (currentState == States.m4b2c6b1a5a1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1a5a1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a5a2();
         }
 
-        if (currentState == States.m4b2c6b1a5b1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1a5b1 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a5b2();
         }
 
-        if (currentState == States.m4b2c6b1a5b2 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1a5b2 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a5b3();
         }
 
-        if (currentState == States.m4b2c6b1a5b3 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.m4b2c6b1a5b3 && Input.GetKeyDown(KeyCode.Space))
         {
             m4b2c6b1a5b4();
         }
@@ -388,108 +388,108 @@ public class TextAdventure : MonoBehaviour
             n2();
         }
 
-        if (currentState == States.n2 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n2 && Input.GetKeyDown(KeyCode.Space))
         {
             n3();
         }
 
-        if (currentState == States.n3 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n3 && Input.GetKeyDown(KeyCode.Space))
         {
             n4();
         }
 
-        if (currentState == States.n4 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n4 && Input.GetKeyDown(KeyCode.Space))
         {
 
             n5();
         }
 
-        if (currentState == States.n5 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n5 && Input.GetKeyDown(KeyCode.Space))
         {
             n6();
         }
 
-        if (currentState == States.n6a1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6a1 && Input.GetKeyDown(KeyCode.Space))
         {
             n6a2();
         }
 
-        if (currentState == States.n6b1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b1 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b2();
         }
 
-        if (currentState == States.n6b2 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b2 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b3();
         }
 
-        if (currentState == States.n6b3 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b3 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b4();
         }
 
-        if (currentState == States.n6b4 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b4 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b5();
         }
 
-        if (currentState == States.n6b5 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b5 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b6();
         }
 
-        if (currentState == States.n6b6 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b6 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7();
         }
 
-        if (currentState == States.n6b7a1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7a1 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7a2();
         }
 
-        if (currentState == States.n6b7b1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b1 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b2();
         }
 
-        if (currentState == States.n6b7b2 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b2 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b3();
         }
 
-        if (currentState == States.n6b7b3 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b3 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b4();
         }
 
-        if (currentState == States.n6b7b4 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b4 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b5();
         }
 
-        if (currentState == States.n6b7b5 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b5 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b6();
         }
 
-        if (currentState == States.n6b7b6 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b6 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b7();
         }
 
-        if (currentState == States.n6b7b7 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b7 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b8();
         }
 
-        if (currentState == States.n6b7b8b1 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b8b1 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b8b2();
         }
 
-        if (currentState == States.n6b7b8b2 && Input.GetKeyDown(KeyCode.Space))
+        else if (currentState == States.n6b7b8b2 && Input.GetKeyDown(KeyCode.Space))
         {
             n6b7b8b3();
         }
@@ -508,18 +508,19 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Het is de dag van het kamp.");
         Terminal.WriteLine("Je zit in de trein naast je klasgenoot Natsuki.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.K1;
     }
 
     void K2()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Natsuki: Lees je manga?");
+        Terminal.WriteLine("Natsuki: Lees je manga?");h
         Terminal.WriteLine("");
         Terminal.WriteLine("Type JA of NEE om antwoord te geven");
         currentState = States.K2;
-//        Terminal.EmptyLine();
+//      Terminal.EmptyLine();
     }
 
     void K2A()
@@ -540,7 +541,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Natsuki vind je mening slecht maar accepteert het");
         Terminal.WriteLine("Monica: Ik heb van Attack on titan gehoord. Het is een leuk verhaal.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op SPATIEBALK om verder te gaan.");                    .
         currentState = States.K2AA;
     }
 
@@ -550,7 +551,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Natsuki: Idiot!");
         Terminal.WriteLine("Natsuki staat op en loopt weg");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");                
         currentState = States.K2B1;
     }
 
@@ -558,9 +560,10 @@ public class TextAdventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("Monica komt naast je zitten.");
-        Terminal.WriteLine("Monica: Negeer haar maar ze is gewoon geirriteerd als iemand geen manga leest");
+        Terminal.WriteLine("Monica: Negeer haar maar ze is gewoon geirriteerd als iemand geen manga leest."); //fix geirriteerd... leest.
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");            
         currentState = States.K2B2;
     }
 
@@ -571,13 +574,15 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Gefeliciteerd je heb het kamp overleeft!");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");            
         currentState = States.win;
     }
 
     //credits
     void FirstCredit()
     {
+        Terminal.ClearScreen();
         Terminal.WriteLine("Storyline geschreven door:");
         Terminal.WriteLine("Dylan van Ginhoven");
         Terminal.WriteLine("Rick van der Kleij");
@@ -610,7 +615,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je loopt samen met Monika naar het huis.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan."); .
         currentState = States.m1;
     }
 
@@ -619,7 +625,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je komt aan bij het huis.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m2;
     }
 
@@ -628,14 +635,15 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je maakt je bed op.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m3;
     }
 
     void m4()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Na het eten kan je het wwerwolven");
+        Terminal.WriteLine("Na het eten kan je het weerwolven");
         Terminal.WriteLine("spel spelen of gaan slapen.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Type WEERWOLVEN om het te spelen.");
@@ -648,7 +656,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je gaat slapen.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4a1;
     }
 
@@ -658,7 +667,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je wordt in je slaap opgegeten");
         Terminal.WriteLine("door een weerwolf.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om terug te gaan.");
         currentState = States.reset;
     }
 
@@ -667,7 +676,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je gaat het weerwolven spel spelen.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b1;
     }
 
@@ -675,7 +685,8 @@ public class TextAdventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("Je krijgt de bandiet kaart.");
-        Terminal.WriteLine("Wil je de weerwolf, jager of burger kaart.");
+        Terminal.WriteLine("Wil je de weerwolf, jager of burger ");
+        Terminal.WriteLine("kaart.")
         Terminal.WriteLine("");
         Terminal.WriteLine("Type WEERWOLF voor weerwolf.");
         Terminal.WriteLine("Type JAGER voor jager.");
@@ -692,7 +703,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("");
         Terminal.WriteLine("Weerwolven verliezen.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2a1;
     }
 
@@ -701,11 +713,12 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je bent een jager.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Je wordt vermooerd door een weerwolf.");
+        Terminal.WriteLine("Je wordt vermoord door een weerwolf.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("De Town wint dus jij wint ook.");
+        Terminal.WriteLine("De Town wint dus jij wint ook.");    
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2b1;
     }
 
@@ -716,25 +729,30 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("");
         Terminal.WriteLine("Je wint.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2c1;
     }
 
     void m4b2c2()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Je bent moe en gaat met Monika slapen in je kamer.");
+        Terminal.WriteLine("Je bent moe en gaat met Monika slapen");
+        Terminal.WriteLine(" in je kamer.")
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2c2;
     }
 
     void m4b2c3()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Je wordt wakker door het geklop aan de deur.");
-        Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Je wordt wakker door het geklop aan");
+        Terminal.WriteLine("de deur.");
+        Terminal.WriteLine("")
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2c3;
     }
 
@@ -743,7 +761,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je gaat onbijten en maakt je lunch voor later vandaag");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2c4;
     }
 
@@ -752,7 +771,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je fietst samen met Monika naar de rafts toe");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2c5;
     }
 
@@ -771,7 +791,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("De docenten forceren dat ze in jullie raft komt.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2c6a1;
     }
 
@@ -780,7 +801,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Jullie gaan raften.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2c6b1;
     }
 
@@ -789,7 +811,8 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je komt veel later aan dan de rest. van de groep.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
+        Terminal.WriteLine("gaan.");
         currentState = States.m4b2c6b1a1;
     }
 
@@ -893,7 +916,7 @@ public class TextAdventure : MonoBehaviour
     void n1()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Natsuki vind je mening gewelidig");
+        Terminal.WriteLine("Natsuki vind je mening geweldig");
         Terminal.WriteLine("En is het er mee eens.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te gaan.");
@@ -1124,7 +1147,7 @@ public class TextAdventure : MonoBehaviour
     void n6b7b8()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Welke mang ga je lezen.");
+        Terminal.WriteLine("Welke manga ga je lezen.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Type ATTACK ON TITAN om die te lezen.");
         Terminal.WriteLine("Type HELSING om die te lezen.");
