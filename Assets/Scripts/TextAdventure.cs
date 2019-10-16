@@ -516,7 +516,7 @@ public class TextAdventure : MonoBehaviour
     void K2()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Natsuki: Lees je manga?");h
+        Terminal.WriteLine("Natsuki: Lees je manga?");  
         Terminal.WriteLine("");
         Terminal.WriteLine("Type JA of NEE om antwoord te geven");
         currentState = States.K2;
@@ -541,7 +541,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Natsuki vind je mening slecht maar accepteert het");
         Terminal.WriteLine("Monica: Ik heb van Attack on titan gehoord. Het is een leuk verhaal.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op SPATIEBALK om verder te gaan.");                    .
+        Terminal.WriteLine("Druk op SPATIEBALK om verder te gaan.");
         currentState = States.K2AA;
     }
 
@@ -616,7 +616,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("Je loopt samen met Monika naar het huis.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
-        Terminal.WriteLine("gaan."); .
+        Terminal.WriteLine("gaan.");
         currentState = States.m1;
     }
 
@@ -686,7 +686,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je krijgt de bandiet kaart.");
         Terminal.WriteLine("Wil je de weerwolf, jager of burger ");
-        Terminal.WriteLine("kaart.")
+        Terminal.WriteLine("kaart.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Type WEERWOLF voor weerwolf.");
         Terminal.WriteLine("Type JAGER voor jager.");
@@ -738,7 +738,7 @@ public class TextAdventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("Je bent moe en gaat met Monika slapen");
-        Terminal.WriteLine(" in je kamer.")
+        Terminal.WriteLine(" in je kamer.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
@@ -750,7 +750,7 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Je wordt wakker door het geklop aan");
         Terminal.WriteLine("de deur.");
-        Terminal.WriteLine("")
+        Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
         currentState = States.m4b2c3;
@@ -1157,10 +1157,12 @@ public class TextAdventure : MonoBehaviour
     void n6b7b8a1()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Natsuki loopt boos weg nu ga je huilend slapen.");
+        Terminal.WriteLine("Natsuki loopt boos weg nu ga je huilend");
+        Terminal.WriteLine("slapen.");
         Terminal.WriteLine("Je stikt in je eigen tranen.");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Druk op de SPATIEBALK om terug te gaan naar de start.");
+        Terminal.WriteLine("Druk op de SPATIEBALK om terug te gaan");
+        Terminal.WriteLine("naar de start.");
         currentState = States.reset;
     }
 
