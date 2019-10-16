@@ -1095,7 +1095,8 @@ public class TextAdventure : MonoBehaviour
     void n6b7a1()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Je gaat met Natsuki Monika en Yuri raften.");
+        Terminal.WriteLine("Je gaat met Natsuki Monika en Yuri ");
+        Terminal.WriteLine("raften.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
