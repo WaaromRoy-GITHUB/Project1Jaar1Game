@@ -568,13 +568,11 @@ public class TextAdventure : MonoBehaviour
         Terminal.WriteLine("gaan.");            
         currentState = States.K2B2;
     }
-
-    // dit is de dood van Natsuki en monika
-
+    
     void win()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Gefeliciteerd je heb het kamp overleeft!");
+        Terminal.WriteLine("Gefeliciteerd je heb het kamp");
         Terminal.WriteLine("overleeft!");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
@@ -785,8 +783,10 @@ public class TextAdventure : MonoBehaviour
         Terminal.ClearScreen();
         Terminal.WriteLine("Mag Yuri mee in de raft?");
         Terminal.WriteLine("");
-        Terminal.WriteLine("Type NEE ze mag niet mee als ze niet mee mag");
-        Terminal.WriteLine("Type JA ze mag meer als ze wel mee mag");
+        Terminal.WriteLine("Type NEE ze mag niet mee als ze niet ");
+        Terminal.WriteLine("mee mag.");
+        Terminal.WriteLine("Type JA ze mag meer als ze wel mee ");
+        Terminal.WriteLine("mag.");
         currentState = States.m4b2c6;
     }
 
@@ -917,7 +917,8 @@ public class TextAdventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("Jullie gaan samen ontbijten.");
-        Terminal.WriteLine("Vervolgens gaan jullie de spullen verzamenlen en naar huis.");
+        Terminal.WriteLine("Vervolgens gaan jullie de spullen");
+        Terminal.WriteLine("verzamenlen en naar huis.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
@@ -1068,7 +1069,8 @@ public class TextAdventure : MonoBehaviour
     void n6b6()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Je fietst samen Natsuki naar de rafts toe.");
+        Terminal.WriteLine("Je fietst samen Natsuki naar de rafts");
+        Terminal.WriteLine("toe.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
@@ -1121,7 +1123,8 @@ public class TextAdventure : MonoBehaviour
     void n6b7b2()
     {
         Terminal.ClearScreen();
-        Terminal.WriteLine("Je komt veel eerder aan dan de rest van de groep.");
+        Terminal.WriteLine("Je komt veel eerder aan dan de rest ");
+        Terminal.WriteLine("van de groep.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
@@ -1132,7 +1135,7 @@ public class TextAdventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("Je gaat met Natsuki naar de mcdonalds.");
-        Terminal.WriteLine("Jij betaald het eten en bend nu blut.");
+        Terminal.WriteLine("Jij betaald het eten en bent nu blut.");
         Terminal.WriteLine("");
         Terminal.WriteLine("Druk op de SPATIEBALK om verder te");
         Terminal.WriteLine("gaan.");
